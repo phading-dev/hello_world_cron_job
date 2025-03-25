@@ -10,6 +10,6 @@ spec:
         spec:
           containers:
           - name: hello-world-cron-job
-            image: hello-world-cron-job:latest
+            image: gcr.io/phading-dev/hello-world-cron-job:latest
             imagePullPolicy: IfNotPresent
           restartPolicy: OnFailure
